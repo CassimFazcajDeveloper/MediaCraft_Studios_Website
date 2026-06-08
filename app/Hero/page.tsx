@@ -26,7 +26,7 @@ export default function Example() {
           <div className="hidden sm:mb-8 sm:flex sm:justify-center"></div>
           <div className="text-center">
             <h1 className="text-4
-            xl font-semibold tracking-tight text-balance text-white sm:text-7xl">
+            xl font-semibold tracking-tight text-balance text-white text-5xl sm:text-7xl">
               A Branding Creative Studio You can Trust
             </h1>
             <p className="mt-8 text-lg font-medium text-pretty text-gray-400 sm:text-xl/8">

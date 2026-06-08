@@ -1,4 +1,4 @@
-"use client"
+"use client";
 import React from "react";
 import { useState } from "react";
 import { Dialog, DialogPanel } from "@headlessui/react";
@@ -89,10 +89,11 @@ function Header() {
               </div>
               <div className=" flex items-center justify-center py-4 gap-x-6">
                 <a
-                  href="#"
+                  href="/documents/Potfolio.pdf"
+                  download
                   className="rounded-md bg-yellow-500 px-3.5 py-2.5 text-sm font-semibold text-white shadow-xs hover:bg-yellow-600 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-500"
                 >
-                  PortFolio
+                  Portfolio
                 </a>
               </div>
             </div>

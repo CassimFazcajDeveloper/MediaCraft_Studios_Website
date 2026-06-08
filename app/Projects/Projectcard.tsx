@@ -41,7 +41,8 @@ const Projectcard = ({
             {description}
         </p>
 
-        <p className="text-gray-400 pb-6"> <span className="text-yellow-300">Language :</span> {language}</p>
+        <p className="text-gray-400 pb-2"> <span className="text-yellow-300">Language :</span> {language}</p>
+        <p className="text-gray-400 pb-6"> <span className="text-yellow-300">Price :</span> Not Set</p>
 
         {/* buttons */}
         <div className="flex items-center gap-3">
@@ -53,8 +54,8 @@ const Projectcard = ({
                 rel="noopener noreferrer"
                 className="flex items-center justify-center whitespace-nowrap"
               >
-                <ExternalLink className="w-4 h-4 mr-2 " />
-                Live Demo
+                
+                Enroll
               </a>
             </Button>
           }
